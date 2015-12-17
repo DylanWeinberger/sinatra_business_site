@@ -1,0 +1,84 @@
+body {
+	background-image: url('../images/stars.png');
+	/*position: fixed;*/
+	margin: 0 auto;
+
+}
+
+#container {
+	/*I want the main container of the page to have a gutter on each side. The information */
+	margin: 125px auto;
+	width: 900px;
+	height: 1400px;
+	background-color: rgba(227, 182, 130, .7);
+	/*position: relative;*/
+	border-radius: 28px;
+}
+
+.falcon {
+	width: 250px;
+	position: relative;
+}
+
+#left {
+	width: 255px;
+	float: left;
+	display: inline;
+}
+
+#right {
+	width: 500px;
+	float: right;
+	display: inline;
+}
+
+.no_droids {
+	float: left;
+	width: 250px;
+	padding: 20px;
+	opacity: .6;
+	border-radius: 28px;
+	transition: .8s;
+}
+.no_droids:hover {
+	opacity:1;
+}
+
+.c3po{
+	padding: 20px;
+	opacity: .9;
+	position: relative;
+}
+.spaceport {
+	width: 250px;
+	float: left;
+	opacity: .6;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 28px;
+	transition: .8s;
+
+}
+.spaceport:hover{
+	opacity: 1;
+}
+.mos{
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 50px;
+	color: #661C08;
+	text-align: center;
+}
+.scum {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	color: #661C08;
+	text-align: center;
+}
+
+p {
+	line-height: 1.4em;
+	padding:10px;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	color: #661C08;
+}
+
+
