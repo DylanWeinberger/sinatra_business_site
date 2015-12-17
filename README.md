@@ -1,5 +1,4 @@
 # sinatra_business_site
-first sinatra business site
 We are making a business site for the Mos Eisley Cantina on Tatooine
 We will have four pages and each will have similar layouts
 We will have a centered content area with gutters on each side.
