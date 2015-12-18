@@ -1,8 +1,25 @@
 $(document).ready(function(){
 
 console.log("hello");
+$('.light-box').css({
+	'opacity':'0'
+});
 
+$('body').mouseover(function(){
+	$(".light-box").css({
+		"opacity": '1'
+	});
+});
 
+$('body').click(function(){
+	$(".light-box").fadeOut(1000);
+	$('.spaceport').css({
+		"opacity": ".8"
+	});
+	// ({
+	// 	"opacity": ".7"
+	// });
+});
 
 
 
@@ -22,5 +39,6 @@ $(".falcon").click(function(){
 
 
 
-alert ("No Droids Allowed. Click the droid to get rid of it!!! NOW!");
+
+// alert ("No Droids Allowed. Click the droid to get rid of it!!! NOW!");
 });

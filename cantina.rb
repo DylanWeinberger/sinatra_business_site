@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sendgrid-ruby'
 
 get '/' do
 	"home"
@@ -14,11 +15,20 @@ get '/menu' do
 end
 
 get '/contact' do
-	"contact"
+	erb :contact
 end
 
-post 'contact' do
-	
+post '/contact' do
+
+	puts '******************'
+	puts params.inspect
+	@name = params[:name]
+	@email = params[:email]
+	erb :contactSuccess
+end
+
+get'/contactSuccess' do
+		erb :contactSuccess
 end
 
 
