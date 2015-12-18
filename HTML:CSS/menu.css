@@ -1,0 +1,47 @@
+body {
+ font-family: Georgia, "Times New Roman", serif;
+ text-align: center;
+}
+
+ .wrapper {
+ width: 720px;
+ margin-left: 325px;
+}
+
+ .header {
+ margin: 0px 0px 20px 0px;
+ float: left;
+}
+
+ .pic {
+ width: 220px;
+ float: left;
+ margin: 10px;
+ height: 198px;
+}
+
+ figure {
+ display: block;
+ width: 202px;
+ height: 187px;
+ background-color: #e7e3d8;
+ padding: 9px;
+ text-align: left;
+}
+
+ figure img {
+ width: 200px;
+ height: 150px;
+ border: 1px solid #d6d6d6;
+}
+
+ figcaption {
+ padding-left: 20px;
+ background-repeat: no-repeat;
+ text-align: left;
+}
+
+.pic:hover{
+	transition: all 200ms ease-in;
+    transform: scale(1.5);
+}

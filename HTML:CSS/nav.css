@@ -1,0 +1,64 @@
+/*.banner{
+	float: right;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+}*/
+
+.wrapper{
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+
+/*img{
+	margin: 0;
+	padding: 0;
+}
+*/
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+
+ul li {
+  font: bold 15px/18px sans-serif;
+  /*display: block;*/
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 15px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/*ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+}
+*/
+
+.container{
+	float: left;
+	display: inline;
+}
+
+/*.footer{
+	margin-bottom: 0 auto;
+}*/
+
+
+/*			<ul>
+				<li><a href="#">Drop Down</a></li>
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Menu</a></li>
+			</ul>
+			</ul>*/
