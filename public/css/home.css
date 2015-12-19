@@ -15,9 +15,35 @@ body {
 
 .imgbox {
 	position: absolute;
-	top: 50px;
+	top: 25px;
 	left: 225px;
 	width: 800px;
+	border-radius: 120px;
+
+}
+
+.imgboxcontact {
+	position: absolute;
+	/*top: -10px;*/
+	left: 350px;
+	width: 450px;
+	border-radius: 120px;
+
+}
+
+.imgboxabout {
+	position: absolute;
+	/*top: -10px;*/
+	left: 320px;
+	width: 600px;
+	border-radius: 120px;
+}
+
+.imgboxsuccess {
+	position: absolute;
+	/*top: -10px;*/
+	left: 360px;
+	width: 420px;
 	border-radius: 120px;
 
 }
@@ -29,6 +55,9 @@ body {
 	height: 1400px;
 	background-color: rgba(227, 182, 130, .7);
 	border-radius: 28px;
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-color: #661C08;
 }
 
 .falcon {
@@ -70,12 +99,14 @@ body {
 	padding-bottom: 20px;
 	border-radius: 28px;
 	transition: .8s;
+	/*opacity:.8;*/
+	/*When the opacity was set it kept interfering with the lightbox*/
 
 }
 
-.spaceport:hover{
+/*.spaceport:hover{
 	opacity: 1;
-}
+}*/
 
 .mos{
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
@@ -130,11 +161,90 @@ textarea {
 	/*display: inline;*/
 }
 
-.opaque {
-	opacity: .7;
-	transition: .8s;
+.imgboxband {
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	width: 500px;
+	border-radius: 120px;
 }
 
-.opaque:hover{
-	opacity: 1;
+.max {
+	width: 300px;
+	/*position: relative;*/
+	/*top: 0px;*/
+	/*left: 200px;*/
+	border-radius: 44px;
+	padding: 70px;
+	display: none;
 }
+
+.forget {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 40px;
+	color: #661C08;
+	/*display: inline;*/
+	text-align: center;
+	/*padding: 10px;*/
+	display: none;
+
+}
+
+.snootles {
+	width: 300px;
+	/*position: relative;*/
+	/*top: 0px;*/
+	/*left: 200px;*/
+	border-radius: 44px;
+	padding: 70px;
+	display: none;
+}
+
+#aboutbox {
+	margin: 125px auto;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(227, 182, 130, .7);
+	border-radius: 28px;
+	border: 5px solid #661C08;
+/*	border-color: #661C08;*/
+
+}
+
+img {
+	width: 250px;
+	float: left;
+	margin-top: 30px;
+	padding: 20px;
+	transition: .7s;
+	/*border: 2px solid #661C08;*/
+}
+
+
+
+.employee_name {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 50px;
+	color: #661C08;
+	display: inline;
+/*	padding: 25px;*/
+	text-align: center;
+	/*position: relative;*/
+	top: 30px;
+
+}
+
+.employee_bio {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 24px;
+	color: #661C08;
+	text-align: center;
+	/*position: relative;*/
+	top: 20px;
+/*	display: inline;*/
+	/*float: right;*/
+/*	position: relative;
+	top: -100px;
+	padding: 20px;*/
+}
+

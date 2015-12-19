@@ -7,7 +7,7 @@ get '/' do
 end
 
 get '/about' do
-	"About"
+	erb :about
 end
 
 get '/menu' do
@@ -24,12 +24,34 @@ post '/contact' do
 	puts params.inspect
 	@name = params[:name]
 	@email = params[:email]
-	erb :contactSuccess
+	@comment = params[:textarea]
+	mail_to(@email, @comment)
+	
+erb :contactSuccess
 end
 
 get'/contactSuccess' do
 		erb :contactSuccess
 end
 
+
+
+def mail_to(email, text)
+	
+	client = SendGrid::Client.new do |c|   
+	c.api_key = ENV['SENDGRID_API_KEY'] 
+	end
+
+	mail = SendGrid::Mail.new do |m|   
+	m.to = email   
+	m.from = 'djweinbe@gmail.com'  
+	m.subject = 'Hello Jabba!'   
+	m.text = text
+	end
+	
+res = client.send(mail) 
+puts res.code 
+puts res.body
+end
 
 # on this page we have the listing of all the pages. Our separate erbs and variables from our contact page will go on this later

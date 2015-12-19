@@ -13,9 +13,10 @@ $('body').mouseover(function(){
 
 $('body').click(function(){
 	$(".light-box").fadeOut(1000);
-	$('.spaceport').css({
-		"opacity": ".8"
-	});
+	$('.forget').fadeIn(2000);
+	$('.max').fadeIn(5000);
+	$('.snootles').fadeIn(10000);
+
 	// ({
 	// 	"opacity": ".7"
 	// });
