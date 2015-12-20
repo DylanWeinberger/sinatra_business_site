@@ -19,16 +19,17 @@ body {
 	/*I want the main container of the page to have a gutter on each side. The information */
 	/*position: relative;*/
 	/*padding-top: 20px;*/
-	top: 200px;
+	/*top: 300px;*/
 	left: 200px;
 	margin: 125px auto;
+	margin-top: 300px;
 	width: 900px;
 	height: 1600px;
 	background-color: rgba(227, 182, 130, .7);
 	border-radius: 28px;
 	border-left: 5px solid;
 	border-right: 5px solid;
-	border-color: #661C08;
+	border-color: white;
 }
 
 #container-contact {
@@ -39,19 +40,20 @@ body {
 	left: 200px;*/
 
 	margin: 125px auto;
-	margin-top: 300px;
+	margin-top: 360px;
 	width: 900px;
 	height: 1600px;
 	background-color: rgba(227, 182, 130, .7);
 	border-radius: 28px;
 	border-left: 5px solid;
 	border-right: 5px solid;
-	border-color: #661C08;
+	border-color: white;
 }
 
 .falcon {
 	width: 250px;
 	position: relative;
+	left:0px;
 }
 
 #left {
@@ -80,6 +82,7 @@ body {
 .c3po{
 	padding: 20px;
 	position: relative;
+	left: 0px;
 }
 .spaceport {
 	width: 250px;
@@ -97,17 +100,22 @@ body {
 	opacity: 1;
 }*/
 
-.mos{
+.mos {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-	font-size: 50px;
-	color: #661C08;
-	text-align: center;
+	/*font-size: 50px;*/
+	color: white;
+	/*text-align: center;*/
+	/*display: inline;*/
+	/*float: left;*/
 }
 
 .scum {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-	color: #661C08;
-	text-align: center;
+	color: white;
+	/*text-align: center;*/
+	/*display: inline;*/
+	/*float: left;*/
+
 }
 
 
@@ -115,7 +123,7 @@ p {
 	line-height: 1.4em;
 	padding:10px;
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-	color: #661C08;
+	color: white;
 }
 
 #submitForm {
@@ -133,8 +141,8 @@ textarea {
 .concern {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 50px;
-	color: #661C08;
-	display: inline;
+	color: white;
+	/*display: inline;*/
 	text-align: center;
 	padding: 10px;
 
@@ -144,7 +152,7 @@ textarea {
 .comment {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 40px;
-	color: #661C08;
+	color: white;
 	text-align: center;
 	padding: 10px;
 	/*display: inline;*/
@@ -171,7 +179,7 @@ textarea {
 .forget {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 40px;
-	color: #661C08;
+	color: white;
 	/*display: inline;*/
 	text-align: center;
 	/*padding: 10px;*/
@@ -198,7 +206,7 @@ textarea {
 	height: 400px;
 	background-color: rgba(227, 182, 130, .7);
 	border-radius: 28px;
-	border: 5px solid #661C08;
+	border: 5px solid white;
 /*	border-color: #661C08;*/
 
 }
@@ -217,7 +225,7 @@ img {
 .employee_name {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 50px;
-	color: #661C08;
+	color: white;
 	display: inline;
 /*	padding: 25px;*/
 	text-align: center;
@@ -229,7 +237,7 @@ img {
 .employee_bio {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 24px;
-	color: #661C08;
+	color: white;
 	text-align: center;
 	/*position: relative;*/
 	top: 20px;
@@ -305,6 +313,15 @@ img {
 .hutt {
 	width: 500px;
 	/*padding: 10px;*/
+}
+
+.dont-click {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -800px;
 }
 
 

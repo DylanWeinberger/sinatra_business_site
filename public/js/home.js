@@ -50,14 +50,14 @@ $('body').click(function(){
 
 
 $(".c3po").click(function(){
-		$(".c3po").animate({
-			"left": "-=1000px"
-		}, 8000);
+		$(".c3po").css({
+			"left": "-=500px"
+		}, 20000);
 	});
 $(".falcon").click(function(){
-		$(".falcon").animate({
-			"left": "+=2000px"
-		}, 8000);
+		$(".falcon").css({
+			"left": "+=1200px"
+		}, 90000);
 	});
 
 $('.hutt').click(function(){
@@ -71,6 +71,7 @@ $('.hutt').click(function(){
         audioElement.setAttribute('src', 'images/Jabba_the_Hutt-Laugh.mp3');
         // audioElement.setAttribute('autoplay', 'autoplay');
         //audioElement.load()
+        // found this lesson on stack overflow to play a sound of jabba laughing if you click him
 
         $.get();
 

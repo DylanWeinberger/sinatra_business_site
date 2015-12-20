@@ -43,8 +43,8 @@ def mail_to(email, text)
 	end
 
 	mail = SendGrid::Mail.new do |m|   
-	m.to = email   
-	m.from = 'djweinbe@gmail.com'  
+	m.to = 'djweinbe@gmail.com'   
+	m.from = @email  
 	m.subject = 'Hello Jabba!'   
 	m.text = text
 	end
