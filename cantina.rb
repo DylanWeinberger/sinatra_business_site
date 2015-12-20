@@ -11,7 +11,7 @@ get '/about' do
 end
 
 get '/menu' do
-	"menu"
+	erb :menu
 end
 
 get '/contact' do
