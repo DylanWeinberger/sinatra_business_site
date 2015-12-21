@@ -396,7 +396,7 @@ ul#list-nav li a:hover {
 
 .wrapper {
 	width: 720px;
-	margin-left: 325px;
+	margin-left: 20px;
 }
 
 .pic {
@@ -419,11 +419,10 @@ figure img {
 	width: 200px;
 	height: 160px;
 	border: 1px solid #d6d6d6;
-	background-color: white;
 }
 
 figcaption {
-	color: red;
+	color: white;
 	padding-left: 20px;
 	background-repeat: no-repeat;
 	text-align: left;
@@ -440,5 +439,6 @@ figcaption {
 	color: red;
 	text-align: center;
 }
+
 
 
