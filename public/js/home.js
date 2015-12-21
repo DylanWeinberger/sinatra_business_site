@@ -6,7 +6,7 @@ $('.light-box').css({
 });
 
 // $(".shot").hide()
-
+// function to make the xwing flyable with WASD
 $(document).keydown(function(){
 		if (event.keyCode == 68) {
 			$(".xwing").animate({
@@ -28,29 +28,23 @@ $(document).keydown(function(){
 
 		}
 	});
-
+// light box pop up ad for all pages.
 $('body').mouseover(function(){
 	$(".light-box").css({
 		"opacity": '1'
 	});
 });
-
+// light box fade away. and ads for upcming shows fade in.
 $('body').click(function(){
 	$(".light-box").fadeOut(1000);
 	$('.forget').fadeIn(2000);
 	$('.max').fadeIn(5000);
 	$('.snootles').fadeIn(10000);
-	// $('.xwing').animate({left: "+=1800"}, 9000);
-	// $
-	// I was going to make an x-wing fly in slowly from off the screen when the user clicks on the page. But i decided instead
-	// to allow the user to control the xwing with wasd 
-	// ({
-	// 	"opacity": ".7"
-	// });
+
 });
 
 
-
+// c3p0 flies off screen. message of no droids fades in same for millenium falcon below
 $(".c3po").click(function(){
 		$(".c3po").css({
 			"left": "-=500px"
@@ -67,14 +61,14 @@ $(".falcon").click(function(){
 		// $(".shot").show()	
 	});
 
-
+// hutt grows on click
 $('.hutt').click(function(){
 	$('.hutt').css ({
 		"width": "150%"
 	});
 });
 
-
+// found this answer on stack overflow for playing an audio file. Play a jabba laugh on the click of jabba.
     var audioElement = document.createElement('audio');
         audioElement.setAttribute('src', 'images/Jabba_the_Hutt-Laugh.mp3');
         // audioElement.setAttribute('autoplay', 'autoplay');

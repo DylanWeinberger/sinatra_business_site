@@ -1,6 +1,5 @@
 body {
 	background-image: url('../images/stars.png');
-	/*position: fixed;*/
 	margin: 0 auto;
 
 }
@@ -10,16 +9,12 @@ body {
 	width: 100%;
 	position: absolute;
 	top: -50px;
-	/*left: -10px;*/
 }
 
 
 
 #container {
-	/*I want the main container of the page to have a gutter on each side. The information */
-	/*position: relative;*/
-	/*padding-top: 20px;*/
-	/*top: 300px;*/
+	/*Main container with a gutter showing background on each side.*/
 	left: 200px;
 	margin: 125px auto;
 	margin-top: 80px;
@@ -33,14 +28,19 @@ body {
 }
 
 #container-contact {
-	/*I want the main container of the page to have a gutter on each side. The information */
-	/*position: relative;*/
-	/*padding-top: 20px;*/
-	/*top: 200px;
-	left: 200px;*/
-
+/*main container gutter specifically for the container page as layout was off.*/
 	margin: 125px auto;
-	/*margin-top: 360px;*/
+	width: 900px;
+	height: 1600px;
+	background-color: rgba(227, 182, 130, .7);
+	border-radius: 28px;
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-color: white;
+}
+
+#container-contactsuccess {
+	margin: 125px auto;
 	width: 900px;
 	height: 1600px;
 	background-color: rgba(227, 182, 130, .7);
@@ -57,6 +57,7 @@ body {
 }
 
 .shot {
+	/*message appears after falcon clicked.*/
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 36px;
 	color: white;
@@ -64,10 +65,11 @@ body {
 	position: relative;
 	top: -80px;
 	display:none;
-	/*display: none;*/
+	
 }
 
 .droidmessage {
+	/*message appears after c3po clicked*/
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 36px;
 	color: white;
@@ -75,17 +77,19 @@ body {
 	position: relative;
 	top: -250px;
 	display:none;
-	/*display: none;*/
+
 }
 
 
 #left {
+	/*left column in content*/
 	width: 255px;
 	float: left;
 	display: inline;
 }
 
 #right {
+	/*right column in content*/
 	width: 500px;
 	float: right;
 	display: inline;
@@ -96,49 +100,33 @@ body {
 	width: 250px;
 	padding: 20px;
 	border-radius: 28px;
-	transition: .8s;
 }
-/*.no_droids:hover {
-	opacity:1;
-}*/
 
-.c3po{
+
+.c3po {
 	padding: 20px;
 	position: relative;
 	left: 0px;
 }
+
 .spaceport {
 	width: 250px;
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	border-radius: 28px;
-	transition: .8s;
-	/*opacity:.8;*/
-	/*When the opacity was set it kept interfering with the lightbox*/
 
 }
 
-/*.spaceport:hover{
-	opacity: 1;
-}*/
 
 .mos {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-	/*font-size: 50px;*/
 	color: white;
-	/*text-align: center;*/
-	/*display: inline;*/
-	/*float: left;*/
 }
 
 .scum {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	color: white;
-	/*text-align: center;*/
-	/*display: inline;*/
-	/*float: left;*/
-
 }
 
 
@@ -160,7 +148,6 @@ p {
 
 
 #submitForm {
-	/*position: relative;*/
 	font-size: 24px;
 	text-align: center;
 
@@ -175,11 +162,8 @@ textarea {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 50px;
 	color: white;
-	/*display: inline;*/
 	text-align: center;
 	padding: 10px;
-
-	/*left: 250px;*/
 }
 
 .comment {
@@ -188,7 +172,6 @@ textarea {
 	color: white;
 	text-align: center;
 	padding: 10px;
-	/*display: inline;*/
 }
 
 .imgboxband {
@@ -201,9 +184,6 @@ textarea {
 
 .max {
 	width: 300px;
-	/*position: relative;*/
-	/*top: 0px;*/
-	/*left: 200px;*/
 	border-radius: 44px;
 	padding: 70px;
 	display: none;
@@ -213,34 +193,25 @@ textarea {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	font-size: 40px;
 	color: white;
-	/*display: inline;*/
 	text-align: center;
-	/*padding: 10px;*/
 	display: none;
 
 }
 
 .snootles {
 	width: 300px;
-	/*position: relative;*/
-	/*top: 0px;*/
-	/*left: 200px;*/
 	border-radius: 44px;
 	padding: 70px;
 	display: none;
 }
 
 #aboutbox {
-	/*position: relative;*/
-	/*padding-top: 40px;*/
-	/*top: 300px;*/
 	margin: 125px auto;
 	width: 100%;
 	height: 400px;
 	background-color: rgba(227, 182, 130, .7);
 	border-radius: 28px;
 	border: 5px solid white;
-/*	border-color: #661C08;*/
 
 }
 
@@ -250,7 +221,6 @@ img {
 	margin-top: 30px;
 	padding: 20px;
 	transition: .7s;
-	/*border: 2px solid #661C08;*/
 }
 
 
@@ -260,9 +230,7 @@ img {
 	font-size: 50px;
 	color: white;
 	display: inline;
-/*	padding: 25px;*/
 	text-align: center;
-	/*position: relative;*/
 	top: 30px;
 
 }
@@ -272,21 +240,9 @@ img {
 	font-size: 24px;
 	color: white;
 	text-align: center;
-	/*position: relative;*/
 	top: 20px;
-/*	display: inline;*/
-	/*float: right;*/
-/*	position: relative;
-	top: -100px;
-	padding: 20px;*/
 }
 
-/*.xwingbox{
-	position: absolute;
-	left: -15px;
-	top: 200px;
-	width:180px;
-}*/
 
 .xwing {
 	position: absolute;
@@ -327,7 +283,6 @@ img {
 
 .imgboxcontact {
 	position: absolute;
-	/*top: -10px;*/
 	left: 350px;
 	width: 450px;
 	border-radius: 120px;
@@ -344,7 +299,6 @@ img {
 
 .imgboxsuccess {
 	position: absolute;
-	/*top: -10px;*/
 	left: 360px;
 	width: 420px;
 	border-radius: 120px;
@@ -358,7 +312,14 @@ img {
 
 .hutt {
 	width: 500px;
-	/*padding: 10px;*/
+}
+
+.dont-click {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	color: white;
+	position: absolute;
+	top: 1400px;
+	left:250px;
 }
 
 
