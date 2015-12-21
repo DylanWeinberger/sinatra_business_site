@@ -56,6 +56,29 @@ body {
 	left:0px;
 }
 
+.shot {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -80px;
+	display:none;
+	/*display: none;*/
+}
+
+.droidmessage {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -250px;
+	display:none;
+	/*display: none;*/
+}
+
+
 #left {
 	width: 255px;
 	float: left;
@@ -125,6 +148,16 @@ p {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	color: white;
 }
+
+.testimonial {
+	line-height: 1.4em;
+	padding:10px;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	color: white;
+	font-size: 40px;
+}
+
+
 
 #submitForm {
 	/*position: relative;*/

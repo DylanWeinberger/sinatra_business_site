@@ -5,6 +5,8 @@ $('.light-box').css({
 	'opacity':'0'
 });
 
+// $(".shot").hide()
+
 $(document).keydown(function(){
 		if (event.keyCode == 68) {
 			$(".xwing").animate({
@@ -53,12 +55,18 @@ $(".c3po").click(function(){
 		$(".c3po").css({
 			"left": "-=500px"
 		}, 20000);
+		$(".droidmessage").fadeIn(2000);
 	});
+
 $(".falcon").click(function(){
 		$(".falcon").css({
 			"left": "+=1200px"
-		}, 90000);
+		}, 9000);
+		$(".shot").fadeIn(2000);
+		// $(".shot").fadeIn(2000);	
+		// $(".shot").show()	
 	});
+
 
 $('.hutt').click(function(){
 	$('.hutt').css ({
