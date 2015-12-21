@@ -419,10 +419,11 @@ figure img {
 	width: 200px;
 	height: 160px;
 	border: 1px solid #d6d6d6;
+	background-color: white;
 }
 
 figcaption {
-	color: white;
+	color: red;
 	padding-left: 20px;
 	background-repeat: no-repeat;
 	text-align: left;
