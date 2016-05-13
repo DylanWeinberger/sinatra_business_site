@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/sendgrid/sendgrid-ruby
-  revision: 0fbf579c0f7ed1dff87adc4957c4dc5a6b257068
-  specs:
-    sendgrid-ruby (1.1.6)
-      faraday (~> 0.9)
-      mimemagic
-      smtpapi (~> 0.1)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -17,6 +8,10 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    sendgrid-ruby (1.1.6)
+      faraday (~> 0.9)
+      mimemagic
+      smtpapi (~> 0.1)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -28,7 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sendgrid-ruby!
+  sendgrid-ruby
   sinatra
 
 BUNDLED WITH
